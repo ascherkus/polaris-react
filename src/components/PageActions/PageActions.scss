@@ -1,0 +1,11 @@
+@import '../../styles/common';
+
+.PageActions {
+  margin: 0 auto;
+  padding: var(--p-space-5);
+  border-top: var(--p-border-divider);
+
+  @media #{$p-breakpoints-sm-up} {
+    padding: var(--p-space-5) 0;
+  }
+}
